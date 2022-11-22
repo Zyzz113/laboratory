@@ -1,0 +1,54 @@
+nav{
+    padding-top: 50px;
+    
+    text-align: start;
+    background-color: blueviolet;
+    height: 200px;
+    color: aliceblue;
+}
+.about_us{
+    text-align: justify;
+}
+.about_us h3{
+    border-bottom: 2px solid rgb(223, 217, 217);
+    padding-top: 20px;
+}
+.about_us h2{
+    padding-top: 40px;
+}
+
+.management{
+    padding-top: 80px;
+    text-align: justify;
+}
+
+@media(max-width:767px){
+    .management p{
+        display: none;
+    }
+    .management h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.agymb{
+    padding-top: 50px;
+}
+footer{
+    background-color: rgb(201, 146, 252);
+}
+
+.Copyright {
+text-align: center;
+}
+.link{
+    text-align: justify;
+  
+}
+.email{
+    display: table-cell;
+    vertical-align: middle;
+    width: 500px;
+    height: 100px;
+
+}
